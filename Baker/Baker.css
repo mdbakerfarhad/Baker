@@ -27,14 +27,10 @@ body{
 }
 
 .profile {
-    width: 80%;
+    width: 50%;
     border-bottom: 1px solid #1B2631;
 }
 
-.profile .profile-image {
-    width: 30%;
-   
-}
 
 .name {
     color: #070707;
