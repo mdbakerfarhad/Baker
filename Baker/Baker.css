@@ -32,9 +32,8 @@ body{
 }
 
 .profile .profile-image {
-    width: 800%;
-    border-radius: 50%;
-    border: 5px solid #1B2631;
+    width: 80%;
+   
 }
 
 .name {
