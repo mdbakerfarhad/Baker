@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    background-size: cover;
+}
+
+.full {
+    width: 100%;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid;
+    grid-template-columns: 2fr 4fr;
+}
+.left {
+    position: initial;
+    background-color: rgb(4, 217, 245);
+    padding: 100px;
+  
+}
+
+.profile {
+    width: 80%;
+    border-bottom: 2px solid #1B2631;
+}
+
+.profile .profile-image {
+    width: 100%;
+    border-radius: 50%;
+    border: 8px solid #1B2631;
+}
+
+.name {
+    color: #070707;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    padding: 1rem 0;
+}
+
+.contact-info ul {
+    padding-top: 0.5rem;
+    font-size: 20px;
+}
+
+.contact-info ul li,
+.references ul li {
+    padding: .4rem 0;
+    display: flex;
+    align-items: center;
+    color: #070707;
+    letter-spacing: 1px;
+    font-size: 25px;
+}
+
+.contact-info ul li i,
+.references ul li i {
+    padding-right: 1rem;
+    font-size: 18px;
+    color: #070707;
+}
+
+.skills ul {
+    padding-top: 1rem;
+}
+
+.skills ul li p {
+    padding: .6rem 0;
+    color: #070707;
+    font-size: 20px;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+  
+.Language ul {
+    padding-top: 1rem;
+}
+
+.Language ul li p {
+    padding: .6rem 0;
+    color: #070707;
+    font-size: 20px;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.Hobbies ul {
+    padding-top: 1rem;
+}
+
+.Hobbies ul li p {
+    padding: .6rem 0;
+    color: #070707;
+    font-size: 20px;
+    letter-spacing: .5px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.right {
+    position: initial;
+    background-color: rgb(189, 197, 142);
+    padding: 100px;
+  
+}
+
+table
+{
+    border: 2px dashed black;
+    
+    }
+td
+{
+    padding: 20px;
+    border: 3px solid #ee8a43;
+    }
+
+.title
+{
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+
+.Summary
+{
+    font-size: 18px;
+    letter-spacing: .5px;
+}
+
+.image,.Experience, .Education, .project {
+    margin-bottom: 100px;
+}
+
+footer{
+    text-align: center;
+    color: black;
+    line-height: 5vh;
+    background-color:beige;
+}
